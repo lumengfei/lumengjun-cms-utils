@@ -62,19 +62,19 @@ public class TestStringUtils {
 	
 	@Test 
 	public  void testRandonStr(){
-		String randonStr = StringUtils.getRandonStr(20);
+		String randonStr = StringUtils.getRandomStr(20);
 		System.out.println(randonStr);
 	}
 	
 	@Test 
 	public  void testRandonStrNum(){
-		String randonStr = StringUtils.getrandomStrNum(20);
+		String randonStr = StringUtils.getRandomStrNum(20);
 		System.out.println(randonStr);
 	}
 	
 	@Test
 	public void testgetGb2312N() throws UnsupportedEncodingException{
-		String gb2312n = StringUtils.getGb2312N(20);
+		String gb2312n = StringUtils.getGb2312(20);
 		System.out.println(gb2312n);
 	}
 	

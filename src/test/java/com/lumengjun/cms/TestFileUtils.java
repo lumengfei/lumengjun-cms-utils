@@ -44,7 +44,7 @@ public class TestFileUtils {
 	
 	@Test
 	public void testGetFileName() throws IOException{
-		List<String> listString = FileUtils.getListString("C:\\Users\\ASUS\\Desktop/hj.txt.txt");
+		List<String> listString = FileUtils.readByLines("");
 		for (String string : listString) {
 			System.out.println(string);
 		}

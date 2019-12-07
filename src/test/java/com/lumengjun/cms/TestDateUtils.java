@@ -42,7 +42,7 @@ public class TestDateUtils {
 	
 	@Test
 	public void testisBeginOfMonth(){
-		Date beginOfMonth = DateUtlis.isBeginOfMonth();
+		Date beginOfMonth = DateUtlis.getBeginOfMonth();
 		System.out.println(beginOfMonth.toString());
 	}
 	

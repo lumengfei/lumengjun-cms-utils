@@ -147,5 +147,17 @@ public class StringUtils {
 		return new String(word,"GBK");
 		
 	}
+	/**
+	 * 判断是否是一个正确的邮箱
+	 * @param str
+	 * @return 正确返回true 错误返回false
+	 */
+	public static boolean isEmail(String str) {
+		
+		String pattern = "^\\w+@\\w+\\.[a-zA-Z]{2,3}$";
+		Pattern compile = Pattern.compile(pattern);
+		Matcher matcher = compile.matcher(str);
+		return matcher.matches();
+	}
 	
 }

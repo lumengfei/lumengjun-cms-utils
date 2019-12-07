@@ -78,6 +78,10 @@ public class TestStringUtils {
 		System.out.println(gb2312n);
 	}
 	
-	
+	@Test
+	public void testisEmail(){
+		boolean email = StringUtils.isEmail("1232342@qqcom");
+		System.out.println(email);
+	}
 	
 }

@@ -10,7 +10,7 @@ import com.lumengjun.cms.utils.DateUtlis;
 
 public class TestDateUtils {
 
-	@Test
+	/*@Test
 	public void testAge(){
 		
 	}
@@ -53,6 +53,6 @@ public class TestDateUtils {
 		String format = simpleDateFormat.format(beginOfMonth);
 		System.out.println(format);
 	}
-	
+	*/
 	
 }

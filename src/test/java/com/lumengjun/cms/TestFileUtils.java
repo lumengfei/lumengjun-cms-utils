@@ -13,7 +13,7 @@ import com.lumengjun.cms.utils.FileUtils;
  */
 public class TestFileUtils {
 
-	@Test
+	/*@Test
 	public void ssss(){
 		int i =2&150;
 		System.out.println(i);
@@ -55,6 +55,6 @@ public class TestFileUtils {
 	public void testcopy(){
 		
 	}
-	
+	*/
 	
 }

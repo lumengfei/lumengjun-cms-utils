@@ -19,7 +19,7 @@ public class TestStringUtils {
 	
 	
 	
-	
+	/*
 	@Test
 	public void ssss(){
 		int i=0xB0;
@@ -82,6 +82,6 @@ public class TestStringUtils {
 	public void testisEmail(){
 		boolean email = StringUtils.isEmail("1232342@qqcom");
 		System.out.println(email);
-	}
+	}*/
 	
 }

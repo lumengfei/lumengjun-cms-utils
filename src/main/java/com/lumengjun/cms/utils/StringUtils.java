@@ -21,7 +21,13 @@ public class StringUtils {
 		}		
 	}
 	
-	
+	public static boolean judgeTelephoneIsOk(String src){
+		String regex = "^1\\d{10}$";
+		Pattern compile = Pattern.compile(regex);
+		Matcher matcher = compile.matcher(src);
+		boolean find = matcher.find();
+		return find;
+	}
 	
 
 	/**

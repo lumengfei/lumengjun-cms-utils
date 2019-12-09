@@ -13,6 +13,9 @@ public class DateUtlis {
 	 */
 	static final int millSecondsPerDay =  1000*60*60*24; 
 	
+	
+	
+	
 	/**
 	 * 计算年龄
 	 * @param birthday  生日

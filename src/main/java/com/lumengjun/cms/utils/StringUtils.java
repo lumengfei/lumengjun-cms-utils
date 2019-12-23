@@ -31,6 +31,15 @@ public class StringUtils {
         return  str1.matches(regex);	
 	}
 	
+	/**
+	 * 地址判断
+	 * @param url
+	 * @return
+	 */
+	public static boolean isUrl(String url) { 
+        String regex = "(https?://(w{3}\\.)?)?\\w+\\.\\w+(\\.[a-zA-Z]+)*(:\\d{1,5})?(/\\w*)*(\\??(.+=.*)?(&.+=.*)?)?"; 
+        return Pattern.matches(regex, url); 
+   }
 	
 	
 	

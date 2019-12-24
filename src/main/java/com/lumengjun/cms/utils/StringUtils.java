@@ -91,7 +91,7 @@ public class StringUtils {
 	 * @return
 	 */
 	public static boolean isNumber(String str) {
-		String regex = "^\\d{1,}\\.?//d{1,}$";
+		String regex = "\\d{1,}\\.?//d{1,}";
 		Pattern compile = Pattern.compile(regex);
 		Matcher matcher = compile.matcher(str);
 		boolean find = matcher.find();

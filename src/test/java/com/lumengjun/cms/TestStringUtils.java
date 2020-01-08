@@ -16,7 +16,11 @@ import com.lumengjun.cms.utils.StringUtils;
 public class TestStringUtils {
 
 	
-	
+	/*@Test
+	public void number(){
+		int randomNumber = StringUtils.getRandomNumber(1, 10);
+		System.out.println(randomNumber);
+	}*/
 	
 	
 	/*
